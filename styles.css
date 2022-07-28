@@ -8,6 +8,21 @@ html, body {
     background-color: #f5f4f8;
 }
 
+footer {
+    margin-top: 10rem;
+    background-color: lightgrey;
+    padding: 1rem;
+}
+
+footer > span:first-of-type {
+    margin-right: 40rem;
+    margin-left: 5rem;
+}
+
+footer > span:nth-child(n+2) {
+    margin-left: 2rem;
+}
+
 nav {
     width: 100%;
     padding: 1rem;
