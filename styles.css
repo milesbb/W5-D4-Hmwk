@@ -1,5 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Outfit&display=swap');
+
 html, body {
     width: 100%;
     height: 100%;
     margin: auto;
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f4f8;
+}
+
+nav {
+    width: 100%;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    /* margin-top: 0.8rem; */
+    background-color: white;
+    /* margin-bottom: 1rem; */
+}
+
+nav > span {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+}
+
+nav > span:first-of-type {
+    padding-left: 3rem;
+}
+
+nav > img {
+    width: 2rem;
+    position: absolute;
+    top: 1.6rem;
+}
+
+nav > span > img {
+    padding-top: 0px;
+    position: absolute;
+    top: -0.1rem;
+}
+
+nav > span:last-of-type {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+nav > span:last-of-type > span:first-of-type > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 5.5rem;
+    top: -0.1rem;
+}
+
+nav > span:last-of-type > span:first-of-type > span {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 1rem;
+    background-color: #7550fe;
+    border: 1px solid white;
+    padding: 0.1rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 5.8rem;
+    top: -0.1rem;
+}
+
+nav > span:last-of-type > span:last-of-type > span {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 1rem;
+    background-color: #1acb98;
+    border: 1px solid white;
+    padding: 0.1rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 1.4rem;
+    top: 2.6rem;
+}
+
+nav > span:last-of-type > span:last-of-type > img {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+body > div:first-of-type {
+    background-color: #7550fe;
+    padding: 0rem;
+    justify-content: center;
+    display: flex;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+body > div:first-of-type > img {
+    background-color: #7550fe;
+    width: 35%;
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+body > div:first-of-type > div {
+    width: 30rem;
+    margin: auto;
+    margin-right: 0rem;
+    margin-top: 2.5rem;
+}
+
+body > div:first-of-type > div > h1 {
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-size: 2.6rem;
+}
+
+body > div:first-of-type > div > p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+body > div:first-of-type > div > span {
+    background-color: #1acb98;
+    color: white;
+    line-height: 4rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+body > div:first-of-type > div > span:first-of-type {
+    font-family: 'Outfit', sans-serif;
+    background-color: #1acb98;
+    color: white;
+    line-height: 4rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+body > div:first-of-type > div > span:last-of-type {
+    font-family: 'Outfit', sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 4rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+body > div:nth-child(3) {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
+    display: flex;
+    justify-content: center;
+}
+
+body > div:nth-child(3) > div {
+    width: 20rem;
+    display: flex;
+    margin: 1rem;
+}
+
+body > div:nth-child(3) > div > div {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+body > div:nth-child(3) > div > div > div:first-of-type {
+    font-family: 'Outfit', sans-serif;
+}
+
+body > div:nth-child(3) > div > img {
+    background-color: #ffeeda;
+    filter: #c88940;
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+body > div:nth-child(n + 4) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+body > div:nth-child(n + 4) > h2 {
+    margin-left: 15rem;
+}
+
+body > div:nth-child(n + 4) > div {
+    display: flex;
+    justify-content: center;
+    width: 70rem;
+    height: 25rem;
+    margin: auto;
+    object-fit: cover;
+    gap: 2rem;
+}
+
+body > div:nth-child(n + 4) > div > img {
+    background-color: white;
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    object-fit: cover;
+    margin-top: 13rem;
+}
+
+body > div:nth-child(n + 4) > div > div > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+body > div:nth-child(n + 4) > div > div {
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body > div:nth-child(n + 4) > div > div > p {
+    padding-left: 0.5rem;
 }
